@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url('https://tse3.mm.bing.net/th?id=OIP.2fuYWeeojtBQlMGsLAy5ygHaFj&pid=Api&P=0&w=227&h=170');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+
+.containers{
+    padding: 60px 60px;
+    color: #fff;
+}
+
+.currents_infos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.weathers_items{
+    background-color:  rgba(23, 16, 60,0.8);
+}
+
+.dates_containers{
+    margin-left: 520px;
+}
+.dates_containers .times{
+    font-size: 60px;
+    font-weight: 100;
+}
+
+#timess{
+    margin-left: 2px;
+}
+.dates_containers #am_pm{
+    font-size: 40px;
+}
+
+.dates_containers .dates{
+    font-size: 25px;
+    margin-left: 16px;
+}
+
+.city{
+    font-size: 40px;
+}
+
+.country{
+    font-size: 22px;
+    text-align: end;
+}
+
+.temperatures{
+    font-size: 46px;
+    display: flex;
+    margin-left: 574px;
+    margin-top: 20px;
+}
+
+.conditions{
+    margin-left: 591px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    font-size: 28px;
+}
+
+.aqi{
+margin-left: 585px;
+margin-top: 15px;
+margin-bottom: 0px;
+border-radius: 12px;
+background-color: rgb(23, 16, 60);
+color: #fff;
+width: 6%;
+display: flex;
+justify-content: center;
+}
+
+.weathers_items,.a,.humidity,.Pressure,.Wind_speed{
+    display:flex;
+    justify-content: space-between;
+    padding: 6px;
+}   
+
+.others{
+    margin-top: 40px;
+    border: 4px solid rgb(15, 7, 53);
+    border-radius: 12px;
+    font-size: 20px;
+    width: 20%;
+    margin-left: 500px;
+}
+
+.futures_forecast{
+    padding: 12px;
+    background-color: rgb(23, 16, 60);
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    color: #fff;
+    font-size: 22px;
+}
+
+.as{
+    border-radius: 12px;
+    padding: 12px;
+    background-color: rgb(10, 10, 73);
+    border: 6px solid rgb(15, 7, 53);
+    display: flex;
+}
+
+.weathers_forecast{
+    display: flex;
+    margin: 6px;
+    padding: 6px;
+    background-color: rgba(24,24,26,0);
+}
+
+.weathers_forecast_items,.day,.temp,.todays{
+    margin: 6px;
+    padding: 6px;
+    background-color: rgba(24,24,26,0);
+}
+
+.today{
+    background-color: rgba(24,24,26,0.6);
+    border: 2px solid #fff;
+    border-radius: 12px;
+}
+
+.a_icons{
+    margin:4px;
+}
+
+.weathers_forecast_items{
+    border: 2px solid #fff;
+    border-radius: 12px;
+    background-color: rgba(24,24,26,0.6);
+}
+
+#b{
+    background-color: rgba(24,24,26,0);
+}
+
+@media only screen and (max-width: 750px){
+    body{
+        overflow: scroll;
+    }
+    .containers{
+        padding: 20px;
+    }
+
+    .futures_forecast{
+        justify-content: start;
+        align-items: none;
+        overflow: scroll;
+    }
+}
+
